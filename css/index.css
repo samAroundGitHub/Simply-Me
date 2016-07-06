@@ -1,0 +1,51 @@
+/*
+	Simply Me 样式
+*/
+		/* 字体样式*/
+		body {
+			font: 20px "Montserrat", sans-serif;
+			line-height: 1.8;
+			color: #f5f6f7;
+		}
+		p {
+			font-size: 16px;
+		}
+		/* 背景、文字样式*/
+		.bg-1 { 
+		    background-color: #1abc9c; /* Green */
+		    color: #ffffff;
+		}
+		.bg-2 { 
+		    background-color: #474e5d; /* Dark Blue */
+		    color: #ffffff;
+		}
+		.bg-3 { 
+		    background-color: #ffffff; /* White */
+		    color: #555555;
+		}
+		.bg-4 {
+			background-color: #2f2f2f;
+			color: #ffffff;
+		}
+		/* .container-fluid样式加入padding*/
+		.container-fluid {
+			padding-top: 70px;
+			padding-bottom: 70px;
+		}
+		/* .navbar样式*/
+		.navbar {
+			padding-top: 15px;
+			padding-bottom: 15px;
+			border: 0;
+			border-radius: 0;
+			margin-bottom: 0;
+			font-size: 12px;
+			letter-spacing: 5px;
+		}
+		.navbar-nav li a:hover{
+			color: #1abc9c;
+		}
+
+		h3, img {
+			margin-bottom: 45px;
+		}
